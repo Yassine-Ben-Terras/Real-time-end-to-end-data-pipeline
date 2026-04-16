@@ -39,7 +39,7 @@ randomuser.me API
 ### 1 — Clone & configure
 
 ```bash
-
+git clone https://github.com/Yassine-Ben-Terras/Real-time-end-to-end-data-pipeline.git
 cd realtime-pipeline
 cp .env.example .env          # edit values if needed
 ```
