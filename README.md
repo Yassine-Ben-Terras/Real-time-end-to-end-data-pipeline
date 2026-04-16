@@ -1,6 +1,6 @@
 # Real-Time User Data Pipeline
 
-A production-grade streaming data pipeline that ingests random user data, processes it with Apache Spark, and persists it to Apache Cassandra — all orchestrated by Apache Airflow and backed by a Confluent Kafka cluster.
+A production-grade streaming data pipeline that ingests random user data, processes it with Apache Spark, and persists it to Apache Cassandra , all orchestrated by Apache Airflow and backed by a Confluent Kafka cluster.
 
 ```
 randomuser.me API
@@ -41,14 +41,14 @@ randomuser.me API
 ```bash
 git clone https://github.com/Yassine-Ben-Terras/Real-time-end-to-end-data-pipeline.git
 cd realtime-pipeline
-cp .env.example .env          # edit values if needed
+cp .env.example .env         
 ```
 
 ### 2 — Start the stack
 
 ```bash
 make up
-# or: docker compose up -d
+# or : docker compose up -d
 ```
 
 Wait ~2 minutes for all health checks to pass:
