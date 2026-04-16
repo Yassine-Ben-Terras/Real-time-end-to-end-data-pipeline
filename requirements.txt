@@ -1,0 +1,11 @@
+# Airflow extras
+apache-airflow-providers-apache-kafka==1.3.1
+
+# Kafka client
+kafka-python==2.0.2
+
+# HTTP
+requests==2.31.0
+
+# Cassandra driver (used in spark_stream.py)
+cassandra-driver==3.29.0
