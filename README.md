@@ -97,8 +97,8 @@ realtime-pipeline/
 ## Stopping
 
 ```bash
-make down          # keep volumes
-make clean         # remove volumes too
+make down            # keep volumes
+make clean           # remove volumes too
 ```
 
 ## Troubleshooting
